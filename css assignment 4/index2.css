@@ -1,0 +1,111 @@
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+.input-box label{
+    width: 95%;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: black;
+    background-color: #fff;
+}
+.input-box select:hover{
+    border: 2px solid #2EC4B6 ;
+}
+.input-bos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.input-bos input{
+    height: 40px;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: black;
+}
+.input-bos select{
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: black;
+}
+.input-bos select:hover{
+    border: 2px solid #2EC4B6;
+}
+.input-bos label{
+    width: 100%;
+    font-weight: bold;
+    padding: 5px 0;
+}
+button{
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #2EC4B6;
+}
+button:hover{
+    background: #4beede;
+}
+.term a{
+    color: #2EC4B6;
+    font-weight: bold;
+}
+@media(max-width:700px){
+    .section-1{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .logo-cont{
+        padding-top: 0px;
+    }
+    .sub-sec{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 5px 0;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .container{
+        min-width: 280px;
+    }
+    .input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+    img{
+        width: 20%;
+    }
+    .p1{
+        display: none;
+    }
+    .p2{
+        display: block;
+        font-size: 0.8rem;
+        padding-bottom: 30px;
+    }
+}

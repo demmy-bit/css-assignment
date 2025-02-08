@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+
+body{
+    background-color: rgb(24, 24, 24);
+    font-family: "Roboto", serif;
+   
+}
+.otter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25%;
+}
+.sub-container{
+    background-color: #fff;
+    width: 30%;
+    padding:23px ;
+    border-radius: 5px;
+    line-height: 25px;
+    
+}
+.title{
+    background-color: rgb(241, 0, 133);
+    padding:20px 23px ;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: -40px;
+    text-align: center;
+
+}
